@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 function App() {
   return (
     <div className="App">
+      <h1>Countries</h1>
       <LoadCountries></LoadCountries>
     </div>
   );
